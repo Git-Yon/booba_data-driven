@@ -6,8 +6,13 @@ Ce projet explore les raisons de la longévité de Booba dans le paysage du rap 
 
 ---
 
+## RAPPORT 
+
+Rapport présent dans `output/` contenant le storytelling à partir des données.
+
 ## 📂 Contenu
 
+```
 booba_perennite_project/
 │
 ├── DATA/
@@ -20,30 +25,28 @@ booba_perennite_project/
 │
 ├── output/
 │   ├── RAPPORT.ipynb                   # Rapport final complet enrichi
-│   └── figures/                        # Dossier contenant les visualisations
-│       ├── boxplot_durée_année.png
-│       ├── boxplot_feat_popularité.png
-│       ├── coherence.png
-│       ├── diversité_lexical.png
-│       ├── feat_populaire.png
-│       ├── heatmap_theme1.png
-│       ├── pie_collab.png
-│       ├── plot_pattern.png
-│       ├── popularité_mean.png
-│       ├── reseau_collab.png
-│       └── theme_fil_du_temps.png
+│   ├── boxplot_durée_année.png
+│   ├── boxplot_feat_popularité.png
+│   ├── coherence.png
+│   ├── diversité_lexical.png
+│   ├── feat_populaire.png
+│   ├── heatmap_theme1.png
+│   ├── pie_collab.png
+│   ├── plot_pattern.png
+│   ├── popularité_mean.png
+│   ├── reseau_collab.png
+│   └── theme_fil_du_temps.png
 │
 ├── README.md                           # Description du projet
 └── requirements.txt                    # (optionnel) Librairies Python utilisées
-
-
+```
 
 ## 🧰 Technologies
 
-- Python (Pandas, Seaborn, Matplotlib, NetworkX,spacy , sklearn, numpy )
+- Python (Pandas, Seaborn, Matplotlib, NetworkX, Spacy, Scikit-learn, Numpy)
 - Jupyter Notebook
-- APIs : Spotify, Genius 
-- NLP : 
+- APIs : Spotify, Genius
+- NLP : Tokenization, vectorization, topic modeling
 
 ---
 
@@ -55,7 +58,5 @@ booba_perennite_project/
 - Popularité moyenne avec/sans featuring
 
 ---
-
-
 
 
